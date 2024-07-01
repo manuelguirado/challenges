@@ -1,0 +1,49 @@
+    body{
+        background-color: lightblue;
+        font-family: outfit, arial, helvetica;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .attribution > p#information, p#phrase {
+        position: relative;
+        font-size: 15px;
+        text-align: bottom;
+        z-index: 1;
+
+    }
+    @font-face {
+        font-family: "outfit";
+        src: url("fonts/Outfit-VariableFont_wght.ttf");
+        font-weight: 400,700;
+    }
+    .attribution {
+        position:relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 700px;
+        height: 700px;
+        border-radius: 5% ;
+        -webkit-border-radius: 5% ;
+        -moz-border-radius: 5% ;
+        -ms-border-radius: 5% ;
+        -o-border-radius: 5% ;
+}
+    .attribution > figure#image-qr{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px; 
+        height:200px ;
+        margin: 0 ;
+    }
+    .attribution > figure#image- img {
+        max-width: 100%;
+        height: auto;
+    }
